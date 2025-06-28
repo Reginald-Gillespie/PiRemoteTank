@@ -1,6 +1,6 @@
 # Pi Remote Tank
 
-Tank 1 | Tank 2
+Img 1 | Img 2
 :-------------------------:|:-------------------------:
 <img src="images/Tank1.jpg" width="400px"/>  |  <img src="images/Tank2.jpg" width="400px"/>
 <img src="images/DeployDashboard.png" width="400px"/>  |  <img src="images/VideoDashboard.png" width="400px"/>
@@ -33,7 +33,7 @@ Mount your battery, camera, and host device on the tank however you see fit. I c
 
 ## Firmware
 
-Download the source code from the Releases on github. Unzip it. You **ONLY** need to run `main.py`. 
+Download the source code from the [Releases on github](https://github.com/Reginald-Gillespie/PiRemoteTank/releases). Unzip it. You **ONLY** need to run `main.py`. 
 
 *No code needs to go on the pi*. 
 

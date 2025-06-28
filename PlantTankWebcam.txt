@@ -1,0 +1,25 @@
+Get it on wifi, remote, powering on battery
+
+On battery, run `vcgencmd get_throttled` to make sure the pi isn't throttling from low power.
+
+Setup python and libraries needed on pi
+sudo apt install python3
+sudo apt install python3-pip
+pip install flask flask-socketio pyserial opencv-python numpy --break-system-packages
+
+Local deps:
+pip install opencv-python requests python-socketio pillow
+
+
+`stream.py` goes on raspberry pi.
+`SerialControlled.ino` goes onto the Tank Plant arduino.
+`controller.py` runs here.
+
+
+
+Formatted as "{key_type}:{key}\n", where keytype is "keydown" or "keyup", and key is event.keysym on tk's on_key_press and on_key_release events.
+
+
+
+
+

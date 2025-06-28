@@ -8,7 +8,7 @@ Tank 1 | Tank 2
 
 ---
 
-This is a modification of the `Tank Plant` Hack Pack box (#008).
+This is a modification of the `Tank Plant` Hack Pack box (#008), designed to use a webcam and be controlled from your keyboard.
 
 This project expects you have the following:
 1. A **Raspberry Pi** (or other device running a debian-based distro), as the **host device**. I chose to use a Raspberry Pi 4B. This device must be:

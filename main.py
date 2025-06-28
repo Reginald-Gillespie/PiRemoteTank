@@ -443,7 +443,7 @@ class TankPlantController:
             # Install required Python packages
             if self.install_python_libraries.get():
                 self.log_message("Installing Python dependencies...")
-                install_cmd = 'pip3 install opencv-python pyserial'
+                install_cmd = 'pip3 install opencv-python pyserial --break-system-packages'
                 stdin, stdout, stderr = self.ssh_client.exec_command(install_cmd)
                 stdout.channel.recv_exit_status()  # Wait for completion
 
